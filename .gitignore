@@ -112,6 +112,9 @@ venv.bak/
 # Rope project settings
 .ropeproject
 
+# specific files
+myblog/settings.py
+
 # mkdocs documentation
 /site
 
