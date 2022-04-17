@@ -27,7 +27,7 @@ def post_list(request, tag_slug=None):
         object_list = object_list.filter(tags__in=[tag])
 
     paginator = Paginator(object_list, 3)  # 3 posts per page
-    page = request.GET.get('page') # indicates current page number
+    page = request.GET.get('page')  # indicates current page number
     try:
         posts = paginator.page(page)
     except PageNotAnInteger:
