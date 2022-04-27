@@ -89,7 +89,6 @@ DATABASES = {
         'NAME': 'blog',
         'USER': 'postgres',
         'PASSWORD': 'postgres',
-        # 'HOST': '172.20.0.5',
         'HOST': 'db',
         'PORT': 5432,
     }
@@ -136,8 +135,3 @@ STATIC_URL = '/static/'
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
-# EMAIL_HOST = 'smtp.gmail.com'
-# EMAIL_HOST_USER = 'overseek254@gmail.com'
-# EMAIL_HOST_PASSWORD = 'Vallakavaddi'
-# EMAIL_PORT = 587
-# EMAIL_USE_TLS = True
